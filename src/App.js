@@ -1,7 +1,20 @@
+import {Route, BrowserRouter, Routes} from "react-router-dom"
+import Inicio from "./Inicio/Inicio";
+
 
 function App() {
   return (
-    <div>portfolio</div>
+    <BrowserRouter>
+    
+      <Routes>
+
+        <Route path="/" element = {<Inicio/>}/>
+
+      </Routes>
+    
+    
+    
+    </BrowserRouter>
   );
 }
 
