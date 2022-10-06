@@ -1,9 +1,10 @@
 import {Route, BrowserRouter, Routes} from "react-router-dom"
-import Inicio from "./Inicio/Inicio";
+import Inicio from "./components/Inicio/Inicio";
 
 
 function App() {
   return (
+    
     <BrowserRouter>
     
       <Routes>
@@ -12,9 +13,11 @@ function App() {
 
       </Routes>
     
-    
-    
     </BrowserRouter>
+      
+      
+
+
   );
 }
 
