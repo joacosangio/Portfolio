@@ -1,0 +1,34 @@
+.sobreMi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 80vh;
+}
+
+.sobreMi-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 100vw;
+    height: 60%;
+
+    img{
+        width: 50%;
+        height: 50%;
+
+        border-radius: 1em;
+        border: 2px solid #00FFF5;
+    }
+
+    p{
+        width: 50%;
+        color: #fff;
+    }
+}
+

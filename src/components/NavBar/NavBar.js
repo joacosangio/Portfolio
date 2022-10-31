@@ -7,9 +7,9 @@ const NavBar = () => {
     
       <div className='header-links-container'>
 
-          <a href=''>Sobre mi</a>
-          <a href=''>Trabajos</a>
-          <a href=''>Contacto</a>
+          <a href='#'>Sobre mi</a>
+          <a href='#'>Proyectos</a>
+          <a href='#'>Contacto</a>
           
       </div>
       
