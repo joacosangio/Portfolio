@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
 .header-container {
     width: 100vw;
     height: 10vh;
 
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items:center;
+
+    
 
 }
 
@@ -15,16 +19,50 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    list-style: none;
 
-        a {
-            color: #0ffff8;
+    
+    
+
+        li {
+            color: #fff;
+
             text-decoration: none;
-            position: relative;
+            font-family: 'Raleway', sans-serif;
+            font-weight: bold; 
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;        
+            flex-direction: column;   
+        
 
                 &:hover{
-                    color: #fff;
+                    color: #8E05C2;
+
+                        .header-icons {
+                            color: #fff;
+                        }
                     
                 }
+
+               
                 
         }
+
+    .header-icons {
+        margin: 1em;
+        text-align: center;
+        width: 100%;
+        color: #8E05C2;
+
+
+        
+    }
+
+        
+        
+
+        
 }
