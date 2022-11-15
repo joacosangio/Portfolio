@@ -2,14 +2,35 @@
 
 .header-container {
     width: 100vw;
-    height: 10vh;
+    height: 100px;
 
     display: flex;
     justify-content: center;
     align-items:center;
-
+    position: sticky;
+    transition: 0.6s;
+    padding: 1em;
+    top: 0;
+    z-index: 999;
+    background: transparent;
     
+}
 
+.header-container-scroll {
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: sticky;
+    transition: 0.6s;
+    padding: 1em;
+    top: 0;
+    z-index: 999;
+
+    background-color: #3E065F;
+    
 }
 
 .header-links-container {
@@ -21,9 +42,6 @@
     align-items: center;
     text-align: center;
     list-style: none;
-
-    
-    
 
         li {
             color: #fff;
@@ -39,12 +57,8 @@
         
 
                 &:hover{
-                    color: #8E05C2;
-
-                        .header-icons {
-                            color: #fff;
-                        }
-                    
+                    color: #700B97;
+                    cursor: pointer;
                 }
 
                
@@ -55,14 +69,15 @@
         margin: 1em;
         text-align: center;
         width: 100%;
-        color: #8E05C2;
+        color: #fff;
 
 
         
     }
-
-        
-        
-
-        
+  
 }
+
+
+
+
+

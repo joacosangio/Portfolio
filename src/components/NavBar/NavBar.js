@@ -1,10 +1,28 @@
 import React from 'react'
+import { useState } from 'react';
 import "./NavBar.scss"
 import { Icon } from '@iconify/react';
 
 const NavBar = () => {
+
+  const [navBar, setNavBar] = useState(false)
+
+  const cambiarFondo = () => {
+    if(window.scrollY > 0) {
+      setNavBar(true)
+    } else {
+      setNavBar(false)
+    }
+    
+  }
+  
+  
+  window.addEventListener("scroll",  cambiarFondo )
+  
+
+
   return (
-    <header className='header-container'>
+    <header className= {navBar ? "header-container-scroll" : "header-container"}>
     
       <ul className='header-links-container'>
 
