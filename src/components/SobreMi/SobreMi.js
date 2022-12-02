@@ -7,13 +7,17 @@ const SobreMi = () => {
 
         <div className='sobreMi-card'>
 
-           <h1><strong>J</strong>oaquin <strong>S</strong>angiorgi</h1>
+          <h1><strong>J</strong>oaquin <strong>S</strong>angiorgi</h1>
+          <p>
+            Mi nombre es Joaquin Sangiorgi. Tengo 20 años y soy desarrollador Front End. Soy una persona muy responsable,
+            ordenada y con ganas de aprender constantemente. Tengo ganas de poder formar parte de una empresa la cual poder desarrollarme
+            como profesional, ser parte de un grupo de personas en la cual trabajar en equipo y sobre todo poder aprender todo aquello que no sepa.
+            Estoy abierto a escuchar propuestas laborales ya sean de Freelance o formando parte de una empresa. Soy apacionado de la tecnologia, 
+            siento que es una herramienta muy poderosa e interesante, por eso trato de siempre estar al dia y aprender las nuevas tecnologias. En mis tiempos
+            libres me ENCANTA hacer café, me desconectá de todo, sentir los aromas durante la preparación, degustar, etc. 
+          </p>
 
-            <p>Mi nombre es Joaquín Sangiorgi. Soy un estudiante de programácion full stMDB, Solo project, 1 week workThis web-page project show all the movies availables on theTMDB-api, so that the user can search and add her favoritesmovies / series / TV-shows.Gamercado-Libre, Teamwork project (5 integers), 2 weeks workIt is an ecommerce for the sale of digital games where theowner is the only seller. Was builted with the help of a scrumleaderProde, Teamwork project (5 integers), 4 weeks workWeb Application for football tournaments in Argentina, Braziland USA. Where the user can vote for current matches, getpoints and wMDB, Solo project, 1 week workThis web-page project show all the movies availables on theTMDB-api, so that the user can search and add her favoritesmovies / series / TV-shows.Gamercado-Libre, Teamwork project (5 integers), 2 weeks workIt is an ecommerce for the sale of digital games where theowner is the only seller. Was builted with the help of a scrumleaderProde, Teamwork project (5 integers), 4 weeks workWeb Application for football tournaments in Argentina, Braziland USA. MDB, Solo project, 1 week workThis web-page project show all the movies availables on theTMDB-api, so that the user can search and add her favoritesmovies / series / TV-shows.Gamercado-Libre, Teamwork project (5 integers), 2 weeks workIt is an ecommerce for the sale of digital games where theowner is the only seller. Was builted with the help of a scrumleaderProde, Teamwork project (5 integers), 4 weeks workWeb Application for football tournaments in Argentina, Braziland USA. Where the user can vote for current matches, getpoints and win awards depending on their country. Thisproject was proposed and evaluated for Tonic-Where the user can vote for current matches, getpoints and win awards depending on their country. Thisproject was proposed and evaluated for Tonic-in awards depending on their country. Thisproject was proposed and evaluated for Tonic-ack y dMDB, Solo project, 1 week workThis web-page project show all the movies availables on theTMDB-api, so that the user can search and add her favoritesmovies / series / TV-shows.Gamercado-Libre, Teamwork project (5 integers), 2 weeks workIt is an ecommerce for the sale of digital games where theowner is the only seller. Was builted with the help of a scrumleaderProde, Teamwork project (5 integers), 4 weeks workWeb Application for football tournaments in Argentina, Braziland USA. Where the user can vote for current matches, getpoints and win awards depending on their country. Thisproject was proposed and evaluated for Tonic-esarrollador Frontend. Estoy en constante aprendizaje y con muchas ganas de aprender. Me considero muy bueno trabajando en equipo</p>
-            <p></p>
         </div>
-
-        
 
     </section>
   )
