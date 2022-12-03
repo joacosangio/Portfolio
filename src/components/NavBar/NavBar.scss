@@ -19,7 +19,6 @@
 .header-container-scroll {
     width: 100vw;
     height: 100px;
-
     display: flex;
     justify-content: center;
     align-items:center;
@@ -28,8 +27,11 @@
     padding: 1em;
     top: 0;
     z-index: 999;
-
-    background-color: #3E065F;
+    background: rgba( 62, 6, 95, 0.25 );
+    box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     
 }
 
@@ -59,10 +61,6 @@
                 &:hover{
                     color: #700B97;
                     cursor: pointer;
-                }
-
-               
-                
         }
 
     .header-icons {
@@ -70,13 +68,9 @@
         text-align: center;
         width: 100%;
         color: #fff;
-
-
-        
     }
-  
 }
-
+}
 
 
 

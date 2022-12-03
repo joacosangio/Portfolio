@@ -1,0 +1,7 @@
+[
+    {"id" : 1, "tittle" : "Coffee Codex",  "description" : "Este es mi proyecto favorito, por 2 simples razones, se trata de café, y yo AMO el café. Y la otra razón es porque está hecho con ReactJs que es mi lenguaje favorito.", "url" : "https://dulcet-wisp-28265a.netlify.app/"},
+
+    {"id" : 2, "tittle": "MarvelFan", "description" : "Este fué mi primer proyecto de todos, me gusta mucho porque es de otras de las cosas que mas me gusta, Marvel, y sinceramente no lo mejore para poder ver mi progreso a través del tiempo.", "url" : "https://master--gorgeous-daifuku-643b5f.netlify.app/"},
+
+    {"id" : 3, "tittle": "JS", "description" : "Este fué el proyecto que realicé en mi curso de Javascript, me gusta mucho visualmente y en cuanto a funcionalidad le falta bastante pero bueno, era mi segundo proyecto..."}
+]
