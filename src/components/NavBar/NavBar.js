@@ -27,9 +27,9 @@ const NavBar = () => {
       <ul className='header-links-container'>
 
           
-          <li href='#'><Icon className='header-icons' icon="ant-design:user-outlined" />Sobre mi</li>
-          <li href='#'><Icon className='header-icons' icon="grommet-icons:projects" />Proyectos</li>
-          <li href='#'><Icon className='header-icons' icon="fluent:contact-card-16-regular" />Contacto</li>
+          <li href='#'><Icon className='header-icons' icon="ant-design:user-outlined" /><a href='#about'>Sobre mi</a></li>
+          <li href='#'><Icon className='header-icons' icon="grommet-icons:projects" /> <a href='#proyects'>Proyectos</a></li>
+          <li href='#'><Icon className='header-icons' icon="fluent:contact-card-16-regular" /> <a href='#contact'>Contacto</a></li>
           
       </ul>
       

@@ -6,9 +6,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: inline;
+    flex-wrap: wrap;
     width: 100vw;
-    height: 80vh;
+    height: auto;
 }
 
 .sobreMi-card{
@@ -17,12 +17,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 100vw;
+    width: 80vw;
     height: 60%;
     margin-top: 2em;
+    background: rgba( 142, 5, 194, 0.2 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
     p{
+        margin: 1em;
         font-size: 1.2rem;
         width: 90%;
         color: #fff;
@@ -34,7 +40,7 @@
     }
 
     h1 {
-        margin-bottom: 3em;
+        margin-bottom: 2em;
         width: 100%;
         color: #fff;
         font-size: 2.4rem;

@@ -28,7 +28,6 @@
     top: 0;
     z-index: 999;
     background: rgba( 62, 6, 95, 0.25 );
-    box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -45,7 +44,7 @@
     text-align: center;
     list-style: none;
 
-        li {
+        li, a{
             color: #fff;
 
             text-decoration: none;

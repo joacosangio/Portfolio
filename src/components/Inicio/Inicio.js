@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Inicio/Inicio.scss"
 import NavBar from '../NavBar/NavBar'
-import Proyectos from '../Proyectos/Proyectos'
+import Proyects from '../Proyects/Proyects'
 import SobreMi from "../SobreMi/SobreMi.js"
 
 const Inicio = () => {
@@ -12,7 +12,7 @@ const Inicio = () => {
 
       <SobreMi/>
 
-      <Proyectos/>
+      <Proyects/>
       
 
     </div>
